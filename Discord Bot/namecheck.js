@@ -16,7 +16,6 @@ const client = new Client({
 
 app.get('/nickname/:discordId', async (req, res) => {
     try {
-        // Ensure client is logged in before handling requests
         if (!client.readyAt) {
             await client.login(DISCORD_BOT_TOKEN);
         }
@@ -45,7 +44,3 @@ client.login(DISCORD_BOT_TOKEN)
     .catch(error => {
         console.error('Error logging in:', error);
     });
-
-
-// Start the client only after setting up the API endpoint and server
-// client.login(DISCORD_BOT_TOKEN);
