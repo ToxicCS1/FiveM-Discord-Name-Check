@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const DISCORD_BOT_TOKEN = 'TOKEN_HERE'; // Replace with your actual bot token
-const GUILD_ID = 'WEBHOOK_HERE'; // Replace with your actual guild ID
+const GUILD_ID = 'GUILD_ID_HERE'; // Replace with your actual guild ID
 
 const { Client, GatewayIntentBits } = require('discord.js');
 
