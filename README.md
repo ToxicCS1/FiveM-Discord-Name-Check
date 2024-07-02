@@ -7,4 +7,7 @@ Forces players name to match name within a discord guild, otherwise can't connec
 - Add "start name_check" to server.cfg
 
 # Install Discord Bot (Required)
-- Follow instructions in "Install.txt" in the Discord Bot Folder
+- Install Node.js
+- npm install discord.js
+- npm install express
+- npm install cjs
