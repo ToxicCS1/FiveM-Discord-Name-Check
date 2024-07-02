@@ -1,7 +1,6 @@
--- validateName.lua
 local discordApiUrl = "http://localhost:3000/nickname/"
 local discordWebhook = "https://discord.com/api/webhooks/1241839876253683792/g05Qn_fmGOEadK1_DOFiEg3aD2PeCjdif-RhkGO9cFoLN-Eb7o80tANMOvtTLmDs4zIG" -- Replace with your actual Discord webhook URL
-local ServerName = "Project Red Rock" -- Replace with your Server name
+local ServerName = "Server Name" -- Replace with your Server name
 local footerIconUrl = "https://i.postimg.cc/N0NxHcbt/Final.png" -- Replace with your footer icon URL
 RegisterServerEvent('playerConnecting')
 AddEventHandler('playerConnecting', function(name, setKickReason, deferrals)
