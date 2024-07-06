@@ -1,7 +1,0 @@
-Install Info
-
-
-Install Node.js
-npm install discord.js
-npm install express
-npm install cjs
